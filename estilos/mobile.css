@@ -23,6 +23,12 @@ html, body{
     background-color: #5F2C82;
  }
 
+ form{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: flex-start;
+ }
 
  main{
     position: relative;
@@ -69,8 +75,11 @@ html, body{
  }
 
 
+
  .caixa{
-    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: #5F2C82;
     border-radius: 7px;
     width: 36vw;
@@ -86,6 +95,7 @@ html, body{
     font-size: 0.9em;
     border: 1px solid #5F2C82;
     width: 25vw;
+    outline: none;
  }
 
 
@@ -131,11 +141,11 @@ html, body{
  }
 
  i#pessoa, i#chave{
-    position: absolute;
-    float: left;
+    position: relative;
     display: block;
+    float: left;  
     color: white;
-    font-size: 1.9em;
+    font-size: 1.5em;
     width: 40px;
     padding: 5px;
  }
