@@ -1,0 +1,150 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
+
+/* 
+    Paleta de cores
+    Verde: #49a09d
+    Lilás: #5f2c82
+ */
+
+
+ *{
+    margin: 0px;
+    padding: 0px;
+ }
+
+
+html, body{
+    height: 100vh;
+    width: 100vw;
+}
+
+ body{
+    background-color: #5F2C82;
+ }
+
+
+ main{
+    position: relative;
+    background-color: white;
+    width: 40vw;
+    height: 75vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 1px rgba(0, 0, 0, 0.363)
+ }
+
+
+
+
+ #imagem{
+    height: 30vh;
+ }
+
+
+ #formulario{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ p{
+    display: block;
+    margin: auto;
+    padding: 8px;
+    font-size: 12px;
+    text-align: center;
+ }
+
+ img{
+    border-radius: 20px 20px 0px 0px;
+    width: 40vw;
+
+ }
+
+ h1{
+    padding: 5px;
+    font-weight: 700;
+ }
+
+
+ .caixa{
+    display: inline-block;
+    background-color: #5F2C82;
+    border-radius: 7px;
+    width: 36vw;
+    padding: 1px;
+    margin-top: 5px;
+ }
+
+ input{
+    background-color: #94CFCD;
+    padding: 10px;
+    border-radius: 10px;
+    float: right;
+    font-size: 0.9em;
+    border: 1px solid #5F2C82;
+    width: 25vw;
+ }
+
+
+ button{
+    cursor: pointer;
+ }
+
+ #entrar{
+    display: block;
+    margin: auto;
+    width: 36vw;
+    background-color: #53AAA7;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: none;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 1em;
+ }
+
+#entrar:hover{
+    background-color: #2D6462;
+}
+
+
+ #senha{
+    display: block;
+    margin: auto;
+    width: 36vw;
+    background-color: white;
+    color: #2D6462;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border: 1px solid #53AAA7;
+    margin-top: 5px;
+    border-radius: 5px;
+    font-size: 0.9em;
+ }
+
+ #senha:hover{
+    background-color: #6CD3CF;
+ }
+
+ i#pessoa, i#chave{
+    position: absolute;
+    float: left;
+    display: block;
+    color: white;
+    font-size: 1.9em;
+    width: 40px;
+    padding: 5px;
+ }
+
+ i#chave{
+    color: white;
+ }
+
+ #black{
+    color: #2D6462;
+    font-size: 0.9em;
+ }
