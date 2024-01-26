@@ -69,7 +69,8 @@ html, body{
     display: block;
     margin: auto;
     padding: 8px;
-    font-size: 12px;
+    /* font-size: 12px; */
+    font-size: 1em;
     text-align: center;
  }
 
