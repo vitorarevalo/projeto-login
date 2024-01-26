@@ -1,11 +1,11 @@
 @charset "UTF-8";
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;700&display=swap');
 
-/* 
-    Paleta de cores
-    Verde: #49a09d
-    Lilás: #5f2c82
- */
+
+/* CELULAR */
+
+@media screen and (min-width: 480px) and (max-width:768px) {
+   
 
 
  *{
@@ -165,3 +165,5 @@ html, body{
     color: #2D6462;
     font-size: 0.9em;
  }
+
+}
